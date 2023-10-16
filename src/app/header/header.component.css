@@ -1,0 +1,19 @@
+.t-size{
+    font-size: 12px;
+  }
+  
+
+  /* margins */
+  .margins{
+    margin-left: 12rem;
+  }
+
+  .navbar .btn {
+    white-space: nowrap !important;
+  }
+
+
+
+  .search-big {
+    width: 330px;
+  }
