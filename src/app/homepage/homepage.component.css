@@ -1,3 +1,7 @@
+.card-section {
+    padding: 10px 7% 70px;
+}
+
 .card {
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -16,6 +20,11 @@
   /* On mouse-hover, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
 
   .rate-location {
@@ -63,3 +72,233 @@
         font-size: 12px; /* Smaller font size */
         white-space: nowrap;
         }
+
+    .btn-green {
+        background-color: #5C7E64;
+    }
+
+    /* Grid section */
+    .grid-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 3.5rem;
+        background-color: #F2FFCD;
+        padding: 80px 8% 70px;
+        color: #333;
+    }
+    
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .left {
+        max-width: 100%;
+        flex-grow: 1;
+    }
+    
+    .left h1 {
+        font-size: 44px;
+        max-width: 50%;
+    }
+    
+    .left p {
+        margin: 10px 0;
+        max-width: 50%;
+        font-size: 20px;
+    }
+    
+    .order-button {
+        background-color: #5C7E64;
+        color: #fff;
+        padding: 7px 35px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .order-button:hover{
+        background-color: #C1CF65;
+    }
+    
+    .top .green{
+        align-self: flex-end;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fish-image, .kebab-image {
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .kebab-image {
+        margin-bottom: 15px;
+    }
+    
+    .fish-image img, .kebab-image img {
+        margin-right: 15px;
+    }
+    
+    .fish-image img:nth-child(1){
+        height: 150px;
+        margin-top: 0;
+    }
+    
+    .top-images {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the right */
+    }
+    
+    
+    .square-image {
+        width: 63px;
+        height: 63px;
+        border-radius: 9px;
+    }
+    
+    .green {
+        background-color: #5C7E64;
+        margin-bottom: 10px;
+    }
+    
+    .yellow{
+        background-color: #C1CF65;
+        margin-top: 10px;
+    }
+    
+    
+    @media (max-width: 1068px) {
+        .grid-section {
+            padding: 40px 8% 30px; /* Adjust padding for smaller screens */
+        }
+    
+        .content {
+        flex-direction: column-reverse;
+        align-items: center;
+        }
+    
+        .left {
+            max-width: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            flex-grow: 0;
+        }
+    
+        .left h1 {
+            font-size: 32px; /* Further reduce font size for very small screens */
+            max-width: 100%;
+        }
+    
+        .left p {
+            font-size: 14px; /* Further reduce font size for very small screens */
+            max-width: 100%;
+        }
+    
+        .order-button {
+            font-size: 16px; /* Further reduce font size for very small screens */
+        }
+    
+        img {
+            max-width: 100%;
+        }
+    }
+
+    /* Newsletter section */
+
+.newsletter {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background-color: #2d2d2d;
+    padding: 80px 13% 70px;
+    color: #fff;
+}
+
+.newsletter-section p{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Commissioner;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="email"] {
+    width: 50%;
+    max-width: 500px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+}
+
+button[type="submit"] {
+    max-width: 350px;
+    width: 30%; /* Adjust the width as needed */
+    padding: 11px 10px; /* Add padding */
+    background-color: #5C7E64; /* Green background color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #4B6B53; /* Darker green on hover */
+}
+
+.follow-us p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon a {
+    text-decoration: none;
+}
+
+
+.social-icon svg {
+    width: 30px;
+    height: 30px;
+} 
