@@ -136,45 +136,16 @@
         justify-content: center;
     }
     
-    .fish-image, .kebab-image {
-        display: flex;
-        margin-top: 15px;
-    }
-    
-    .kebab-image {
-        margin-bottom: 15px;
-    }
-    
-    .fish-image img, .kebab-image img {
-        margin-right: 15px;
-    }
-    
-    .fish-image img:nth-child(1){
-        height: 150px;
-        margin-top: 0;
-    }
-    
-    .top-images {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start; /* Align items to the right */
-    }
-    
-    
-    .square-image {
-        width: 63px;
-        height: 63px;
-        border-radius: 9px;
-    }
-    
-    .green {
-        background-color: #5C7E64;
-        margin-bottom: 10px;
-    }
-    
-    .yellow{
-        background-color: #C1CF65;
-        margin-top: 10px;
+    @media (max-width: 500px) {
+        .text-5xl {
+            font-size: 28px;
+        }
+
+        .card-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
     
     
