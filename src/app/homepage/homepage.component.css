@@ -83,7 +83,7 @@
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
         gap: 3.5rem;
         background-color: #F2FFCD;
-        padding: 80px 8% 70px;
+        padding: 80px 7% 70px;
         color: #333;
     }
     
@@ -151,7 +151,7 @@
     
     @media (max-width: 1068px) {
         .grid-section {
-            padding: 40px 8% 30px; /* Adjust padding for smaller screens */
+            padding: 40px 7% 30px; /* Adjust padding for smaller screens */
         }
     
         .content {
@@ -194,7 +194,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 3.5rem;
     background-color: #2d2d2d;
-    padding: 80px 13% 70px;
+    padding: 80px 7% 70px;
     color: #fff;
 }
 
