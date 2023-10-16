@@ -17,3 +17,14 @@
   .search-big {
     width: 330px;
   }
+
+  .nav {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  
+  .logo {
+    width: auto; /* Define the width of your logo */
+    max-width: 100%; /* Allow it to be responsive within the container */
+  }
+  
