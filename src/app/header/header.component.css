@@ -28,3 +28,6 @@
     max-width: 100%; /* Allow it to be responsive within the container */
   }
   
+  .navbar-toggler-icon {
+    background-color: #5C7E64; /* Add your desired color */
+}
