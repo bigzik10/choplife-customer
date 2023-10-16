@@ -1,0 +1,109 @@
+
+.pointer{
+    cursor: pointer;
+}
+
+/* Margins start*/
+
+.m5{
+    margin-right: 9rem !important;
+}
+
+.m6{
+    margin-left: 2rem !important;
+}
+
+/* margin ends */
+
+
+.ecllipse{
+    position: absolute;
+    top: -0.7rem;
+    left: 9rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+
+
+@media (max-width:1399px) {
+
+    .ecllipse{
+        position: absolute !important;
+        top: -0.7rem !important;
+        left: 7rem !important;
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 100% !important;
+        background-color: black !important;
+    }
+    
+    
+}
+@media (max-width:999px) {
+
+    .ecllipse{
+        position: absolute !important;
+        top: -0.7rem !important;
+        left: 3rem !important;
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 100% !important;
+        background-color: black !important;
+    }
+    
+    
+}
+@media (max-width:475px) {
+
+    .ecllipse{
+        position: absolute !important;
+        top: -0.7rem !important;
+        left: 9rem !important;
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 100% !important;
+        background-color: black !important;
+    }
+    
+    
+}
+/* font size */
+
+.f10{
+    font-size: 12px;
+}
+
+
+
+
+.scroll{
+    overflow-y: scroll;
+    height: 100vh;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+
+  .scroll {
+    /* Hide the scrollbar */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+  
+    /* Enable scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* iOS Safari */
+    overflow-y: scroll;
+  }
+  
+  /* For WebKit-based browsers (Chrome, Safari) */
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
